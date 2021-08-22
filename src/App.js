@@ -1,6 +1,6 @@
 import logo from './logo.svg'
-import instaIcon from './instagram.png'
-import ytIcon from './youtube.png'
+import instaIcon from './instagram.svg'
+import ytIcon from './youtube.svg'
 import Playlist from './Playlist'
 
 function App () {

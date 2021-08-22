@@ -91,13 +91,13 @@ code {
   width: 100%
 }
 
-.signature {
+.footer .signature {
   display: inline-block;
   text-align: left;
   width: 49%;
 }
 
-.signature div {
+.footer .signature div {
   display: inline-block;
 }
 .signature div:before,
@@ -105,17 +105,29 @@ code {
   content: ' : ';
 }
 
-.signature a {
+.footer .signature a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.links {
+.footer .links {
   display: inline-block;
   text-align: right;
   width: 49%;
 }
 
-.links a {
+.footer .links img {
+  width: 24px;
+}
+
+.footer .links a {
+  display: inline-block;
   padding-right: 1%;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .footer .links a {
+    padding-right: 3%;
+  }
 }
