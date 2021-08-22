@@ -1,3 +1,3 @@
 # About
 
-Web source for [pddyrdbrd.net](https://pddyrdbrd.net/)
+Web source for [pddyrdbrd.net/pedal](https://pddyrdbrd.net/pedal/)
