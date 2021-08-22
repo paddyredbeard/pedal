@@ -1,6 +1,7 @@
 {
   "name": "pedals",
   "version": "0.2.2",
+  "description": "website",
   "private": true,
   "homepage": "https://pddyrdbrd.net/pedal",
   "dependencies": {
