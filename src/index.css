@@ -19,16 +19,9 @@ code {
   text-align: center;
   min-height: 100vh;
 }
-
 .app-logo {
   height: 15vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .app-logo {
-    animation: app-logo-spin infinite 20s linear;
-  }
 }
 
 .app-header {
@@ -55,15 +48,7 @@ code {
 
 /*
  * Playlist
-.video-responsive {
-  max-width: 90%;
-}
-
-.video-responsive iframe {
-  width: 100%;
-}
  */
-
 .video-responsive {
   overflow: hidden;
   margin-top: 2%;
@@ -73,13 +58,24 @@ code {
 }
 
 .video-responsive iframe {
-  left: 25%;
+  left: 20%;
   top: 0;
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 60%;
   position: absolute;
 }
 
+@media screen and (max-width: 800px) {
+  .video-responsive {
+    margin-top: 9%;
+  }
+
+  .video-responsive iframe {
+    left: 0%;
+    height: 100%;
+    width: 100%;
+  }
+}
 
 
 /*
@@ -107,6 +103,11 @@ code {
 .signature div:before,
 .signature div:after {
   content: ' : ';
+}
+
+.signature a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .links {

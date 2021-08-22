@@ -22,8 +22,10 @@ function App () {
       <footer className='footer'>
         <div className='signature'>
           <div>pddyrdbrd</div>
-          <div>17 jul 2021</div>
-          <div>14zgu3z0qe3az4a</div>
+          <div>22 aug 2021</div>
+          <div>
+            <a href='/' title='this is where i begin'>14zgu3z0qe3az4a</a>
+          </div>
         </div>
 
         <div className='links'>
